@@ -27,8 +27,8 @@ public class StudentGrades {
         }
 
         // Check if a key exists
-        boolean containsAlice = studentGrades.containsKey("Alice");
-        System.out.println("Contains Alice? " + containsAlice);
+        boolean containsshruthi = studentGrades.containsKey("Alice");
+        System.out.println("Contains shruthi? " + containsshruthi);
 
         // Remove a student
         studentGrades.remove("priya");
