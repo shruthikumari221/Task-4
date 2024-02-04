@@ -12,13 +12,13 @@ public class StudentGrades {
         studentGrades.put("lavanya", 62);
 
         // Retrieve and print grades
-        int aliceGrade = studentGrades.get("shruthi");
-        int bobGrade = studentGrades.get("priya");
-        int charlieGrade = studentGrades.get("lavanya");
+        int shruthiGrade = studentGrades.get("shruthi");
+        int priyaGrade = studentGrades.get("priya");
+        int lavanyaGrade = studentGrades.get("lavanya");
 
-        System.out.println("shruthi's Grade: " + aliceGrade);
-        System.out.println("priya's Grade: " + bobGrade);
-        System.out.println("lavanya's Grade: " + charlieGrade);
+        System.out.println("shruthi's Grade: " + shruthiGrade);
+        System.out.println("priya's Grade: " + priyaGrade);
+        System.out.println("lavanya's Grade: " + lavanyaGrade);
 
         // Iterate through the HashMap
         System.out.println("Student Grades:");
@@ -27,7 +27,7 @@ public class StudentGrades {
         }
 
         // Check if a key exists
-        boolean containsshruthi = studentGrades.containsKey("Alice");
+        boolean containsshruthi = studentGrades.containsKey("shruthi");
         System.out.println("Contains shruthi? " + containsshruthi);
 
         // Remove a student
